@@ -1,4 +1,4 @@
-# Proyect-OOP: Bank Account modeling
+# Bank Account modeling
 
 Context:
 
@@ -8,4 +8,4 @@ for the purpose of the class. I think it is very interesting and I want to work 
 that in the future I work in finance or banking.
 
 For example the class will include the different bank accounts/owners. Each bank account/number will include attributes like: balance. Through different methods
-the balance will increase or decrease and the transaction will be stored. It will also include number and account holder which will not change and are public. The password attribute will be private.
+the balance will increase or decrease and the transaction will be stored. These transactions will be interlinked between the accounts and that will reflect in the balances. It will also include number and account holder which will not change and are public. The password attribute will be private. 
