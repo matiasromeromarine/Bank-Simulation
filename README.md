@@ -8,3 +8,15 @@ for the purpose of the class. I think it is very interesting and I want to work 
 that in the future I work in finance or banking.
 
 For example the class will include the different bank accounts/owners. Each bank account/number will be another class of person type including name, age, etc, and will include objects like: balance. Through different methods the balance will increase or decrease and the transaction will be stored. These transactions will be interlinked between the accounts and that will reflect in the balances. It will also include number and account holder which will not change and are public. The password will be private. 
+
+Diagram:
+https://lucid.app/lucidchart/bf9522f0-859b-4722-8451-aef9088681f9/edit?invitationId=inv_1a3183b9-1b33-4df6-8d79-95af54ed0b1d
+
+Classes:
+1. User: User is a super-class that works so every single person accesing the data base is recorded. It has 2 sub-classes: Employee and Client.
+2. Employee: This is a class that derives from User and can access any account. It is important to differenciate this class from Client because it has more methods.
+3. Client: This class stores a lot of information from the User. It is very important as every Bank Account must have a Client.
+4. BankAccount: This super-class containts information about the Client's accounts. It has 3 sub-classes: InvestmentAccount, DebitAccount and CreditAccount.
+5. CreditAccount: This subclass is dedicated to the possibility of a client opening a credit account.
+6. DebitAccount: This subclass is dedicated to the possibility of a client opening a dedit account.
+7. InvestmentAccount: This subclass is dedicated to the possibility of a client opening an investment account.
