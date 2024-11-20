@@ -10,7 +10,8 @@ that in the future I work in finance or banking.
 For example the class will include the different bank accounts/owners. Each bank account/number will be another class of person type including name, age, etc, and will include objects like: balance. Through different methods the balance will increase or decrease and the transaction will be stored. These transactions will be interlinked between the accounts and that will reflect in the balances. It will also include number and account holder which will not change and are public. The password will be private. 
 
 Diagram:
-https://lucid.app/lucidchart/bf9522f0-859b-4722-8451-aef9088681f9/edit?invitationId=inv_1a3183b9-1b33-4df6-8d79-95af54ed0b1d
+![image](https://github.com/user-attachments/assets/ed2c149b-6d1b-4dc7-86a4-3fb23258cbad)
+
 
 Classes:
 1. User: User is a super-class that works so every single person accesing the data base is recorded. It has 2 sub-classes: Employee and Client.
