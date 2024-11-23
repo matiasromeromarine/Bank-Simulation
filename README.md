@@ -10,8 +10,7 @@ that in the future I work in finance or banking.
 For example the class will include the different bank accounts/owners. Each bank account/number will be another class of person type including name, age, etc, and will include objects like: balance. Through different methods the balance will increase or decrease and the transaction will be stored. These transactions will be interlinked between the accounts and that will reflect in the balances. It will also include number and account holder which will not change and are public. The password will be private. 
 
 Diagram:
-![image](https://github.com/user-attachments/assets/ed2c149b-6d1b-4dc7-86a4-3fb23258cbad)
-
+![image](https://github.com/user-attachments/assets/3b0c18be-5b03-408a-acd3-ab76d9ce4312)
 
 Classes:
 1. User: User is a super-class that works so every single person accesing the data base is recorded. It has 2 sub-classes: Employee and Client.
@@ -19,5 +18,5 @@ Classes:
 3. Client: This class stores a lot of information from the User. It is very important as every Bank Account must have a Client.
 4. BankAccount: This super-class containts information about the Client's accounts. It has 3 sub-classes: InvestmentAccount, DebitAccount and CreditAccount.
 5. CreditAccount: This subclass is dedicated to the possibility of a client opening a credit account.
-6. DebitAccount: This subclass is dedicated to the possibility of a client opening a dedit account.
+6. DebitAccount: This subclass is dedicated to the possibility of a client opening a debit account.
 7. InvestmentAccount: This subclass is dedicated to the possibility of a client opening an investment account.
